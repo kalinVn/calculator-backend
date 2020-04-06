@@ -1,0 +1,15 @@
+{
+    "name": "app/calculator",
+    "description": "Finance calculator for users account",
+    "require": {
+        "altorouter/altorouter": "1.1.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload" : {
+        "psr-4": {
+            "app\\":"app/"
+        }
+    }
+    
+	
+}
